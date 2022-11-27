@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  dev:
+    build:
+      context: ./docker
+      args:
+        UID: ${UID}
+        TIMEZONE: Asia/Tokyo
+        PYTHON_VERSION: 3.10.6
+        MMDETECTION_VERSION: 2.25.3
+    volumes:
+      - .:/work
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices:
+           - driver: nvidia
+             capabilities: [gpu]
