@@ -1,6 +1,6 @@
 # MMDetection Base
 
-Simpliflied repository for building [MMDetection](https://github.com/open-mmlab/mmdetection)-based repository
+Simplified repository for building [MMDetection](https://github.com/open-mmlab/mmdetection)-based repository
 
 ## Files
 
