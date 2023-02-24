@@ -15,8 +15,8 @@ In advance, the basic tool files have been added from [MMDetection](https://gith
 │   ├── requirements_core.txt
 │   └── requirements_dev.txt
 ├── docker-compose.yml
-├── src
-├── tests
+├── {src}  # custom module
+├── tests  # test for custom module
 └── tools
     ├── test.py
     └── train.py
